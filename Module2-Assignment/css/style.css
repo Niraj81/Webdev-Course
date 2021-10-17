@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0px;
     border: 0px;
     padding: 15px;
@@ -6,7 +6,7 @@ body{
     box-sizing: border-box;   
 }
 
-h1{
+h1 {
     margin: 15px;
     border: 0px;
     padding: 0px;
@@ -58,57 +58,50 @@ p {
     text-align: center;
 }
 
-
 #Section1 {
-    background-color: antiquewhite;
+    background-color: rgb(214, 52, 2);
 }
 #Heading1 {
-    background-color:aqua;
+    background-color:rgb(242, 99, 56);
 }
 
 
 #Section2 {
-    background-color:aqua;
+    background-color: rgb(242, 99, 56);
 }
 #Heading2 {
-    background-color:aquamarine;
+    background-color:rgb(242, 99, 56);
 }
 
 
 #Section3 {
-    background-color:aquamarine;
+    background-color:rgb(201, 96, 64);
 }
 #Heading3 {
-    background-color:azure;
+    background-color:rgb(242, 99, 56);
 }
 
 
-@media (min-width: 992px)
-{
-    #Section1, #Section2, #Section3
-    {
+
+@media (min-width: 992px) {
+    #Section1, #Section2, #Section3 {
         width: 30.20%;
     }
 }
 
 
-@media (min-width: 768px) and (max-width: 991px)
-{
-    #Section1, #Section2
-    {
+@media (min-width: 768px) and (max-width: 991px) {
+    #Section1, #Section2 {
         width: 45.45913%
     }
-    #Section3
-    {
+    #Section3 {
         width: 93.94550%;
     }
 }
 
 
-@media (max-width: 767px)
-{
-    #Section1, #Section2, #Section3
-    {
+@media (max-width: 767px) {
+    #Section1, #Section2, #Section3 {
         width: 92.94550%;
     }
 }
